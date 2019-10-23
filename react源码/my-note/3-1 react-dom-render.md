@@ -178,7 +178,7 @@ words:
   - callback: 回调,
 
 - 过程
-  -  通过  createUpdate  创建  update
+  -  通过  createUpdate  创建  update （更新地点）
   -  设置  update  属性
   -  调用  enqueueUpdate，把  update  加入到  Fiber  对象对应的  updateQueue  里，某一个节点会有多次更新产生
   -  调用  scheduleWork  开始进行任务调度（有优先级概念）
